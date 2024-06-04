@@ -22,7 +22,7 @@ jobs:
         image: postgres:16.3
         # Provide the password for postgres
         env:
-          POSTGRES_USER: root
+          POSTGRES_USER: ws
           POSTGRES_PASSWORD: 123123
           POSTGRES_DB: simple_bank
         # Set health checks to wait until postgres has started
